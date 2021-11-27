@@ -8,7 +8,7 @@ const port = process.env.PORT || 3001
 app.use(bodyParser.urlencoded({extended: false}))
 app.use(bodyParser.json())
 
-app.get('/api/product', (req, res) => {
+app.get('/api/product/vino', (req, res) => {
     res.send({ 
       
       "Albania": [
@@ -8748,6 +8748,3051 @@ app.get('/api/product', (req, res) => {
    }
         
   )
+})
+app.get('/api/product/jamon', (req, res) => {
+   res.send({ 
+      "Australia": [
+      {
+         "Year": 1992,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1993,
+         "Tradevalue": 1004
+      },
+      {
+         "Year": 1994,
+         "Tradevalue": 7710
+      },
+      {
+         "Year": 1995,
+         "Tradevalue": 156882
+      },
+      {
+         "Year": 1996,
+         "Tradevalue": 63651
+      },
+      {
+         "Year": 1997,
+         "Tradevalue": 102151
+      },
+      {
+         "Year": 1998,
+         "Tradevalue": 74222
+      },
+      {
+         "Year": 1999,
+         "Tradevalue": 6444
+      },
+      {
+         "Year": 2000,
+         "Tradevalue": 1131
+      },
+      {
+         "Year": 2001,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2002,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2003,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2004,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2005,
+         "Tradevalue": 10902
+      },
+      {
+         "Year": 2006,
+         "Tradevalue": 1776
+      },
+      {
+         "Year": 2007,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2008,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2009,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2010,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2011,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2012,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2013,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2014,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2015,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2016,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2017,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2018,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2019,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2020,
+         "Tradevalue": 0
+      }
+   ],
+   "Belgium": [
+      {
+         "Year": 1992,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1993,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1994,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1995,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1996,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1997,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1998,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1999,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2000,
+         "Tradevalue": 45
+      },
+      {
+         "Year": 2001,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2002,
+         "Tradevalue": 69
+      },
+      {
+         "Year": 2003,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2004,
+         "Tradevalue": 300
+      },
+      {
+         "Year": 2005,
+         "Tradevalue": 2032
+      },
+      {
+         "Year": 2006,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2007,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2008,
+         "Tradevalue": 10161
+      },
+      {
+         "Year": 2009,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2010,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2011,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2012,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2013,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2014,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2015,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2016,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2017,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2018,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2019,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2020,
+         "Tradevalue": 0
+      }
+   ],
+   "Brazil": [
+      {
+         "Year": 1992,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1993,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1994,
+         "Tradevalue": 3552
+      },
+      {
+         "Year": 1995,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1996,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1997,
+         "Tradevalue": 2363
+      },
+      {
+         "Year": 1998,
+         "Tradevalue": 45794
+      },
+      {
+         "Year": 1999,
+         "Tradevalue": 7232
+      },
+      {
+         "Year": 2000,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2001,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2002,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2003,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2004,
+         "Tradevalue": 1041
+      },
+      {
+         "Year": 2005,
+         "Tradevalue": 1012
+      },
+      {
+         "Year": 2006,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2007,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2008,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2009,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2010,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2011,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2012,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2013,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2014,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2015,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2016,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2017,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2018,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2019,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2020,
+         "Tradevalue": 0
+      }
+   ],
+   "Canada": [
+      {
+         "Year": 1992,
+         "Tradevalue": 17643
+      },
+      {
+         "Year": 1993,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1994,
+         "Tradevalue": 946
+      },
+      {
+         "Year": 1995,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1996,
+         "Tradevalue": 3020
+      },
+      {
+         "Year": 1997,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1998,
+         "Tradevalue": 4806
+      },
+      {
+         "Year": 1999,
+         "Tradevalue": 11612
+      },
+      {
+         "Year": 2000,
+         "Tradevalue": 6723
+      },
+      {
+         "Year": 2001,
+         "Tradevalue": 417
+      },
+      {
+         "Year": 2002,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2003,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2004,
+         "Tradevalue": 23180
+      },
+      {
+         "Year": 2005,
+         "Tradevalue": 56291
+      },
+      {
+         "Year": 2006,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2007,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2008,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2009,
+         "Tradevalue": 204
+      },
+      {
+         "Year": 2010,
+         "Tradevalue": 288176
+      },
+      {
+         "Year": 2011,
+         "Tradevalue": 407487
+      },
+      {
+         "Year": 2012,
+         "Tradevalue": 814131
+      },
+      {
+         "Year": 2013,
+         "Tradevalue": 443750
+      },
+      {
+         "Year": 2014,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2015,
+         "Tradevalue": 8041
+      },
+      {
+         "Year": 2016,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2017,
+         "Tradevalue": 115
+      },
+      {
+         "Year": 2018,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2019,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2020,
+         "Tradevalue": 0
+      }
+   ],
+   "China, Hong Kong SAR": [
+      {
+         "Year": 1992,
+         "Tradevalue": 6302
+      },
+      {
+         "Year": 1993,
+         "Tradevalue": 5449
+      },
+      {
+         "Year": 1994,
+         "Tradevalue": 10400
+      },
+      {
+         "Year": 1995,
+         "Tradevalue": 4887
+      },
+      {
+         "Year": 1996,
+         "Tradevalue": 3545
+      },
+      {
+         "Year": 1997,
+         "Tradevalue": 87563
+      },
+      {
+         "Year": 1998,
+         "Tradevalue": 3172
+      },
+      {
+         "Year": 1999,
+         "Tradevalue": 8875
+      },
+      {
+         "Year": 2000,
+         "Tradevalue": 4470
+      },
+      {
+         "Year": 2001,
+         "Tradevalue": 1422
+      },
+      {
+         "Year": 2002,
+         "Tradevalue": 908
+      },
+      {
+         "Year": 2003,
+         "Tradevalue": 62
+      },
+      {
+         "Year": 2004,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2005,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2006,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2007,
+         "Tradevalue": 120
+      },
+      {
+         "Year": 2008,
+         "Tradevalue": 86
+      },
+      {
+         "Year": 2009,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2010,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2011,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2012,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2013,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2014,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2015,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2016,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2017,
+         "Tradevalue": 612
+      },
+      {
+         "Year": 2018,
+         "Tradevalue": 450
+      },
+      {
+         "Year": 2019,
+         "Tradevalue": 320
+      },
+      {
+         "Year": 2020,
+         "Tradevalue": 0
+      }
+   ],
+   "Denmark": [
+      {
+         "Year": 1992,
+         "Tradevalue": 11556
+      },
+      {
+         "Year": 1993,
+         "Tradevalue": 5383
+      },
+      {
+         "Year": 1994,
+         "Tradevalue": 2337
+      },
+      {
+         "Year": 1995,
+         "Tradevalue": 733
+      },
+      {
+         "Year": 1996,
+         "Tradevalue": 542
+      },
+      {
+         "Year": 1997,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1998,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1999,
+         "Tradevalue": 12239
+      },
+      {
+         "Year": 2000,
+         "Tradevalue": 405
+      },
+      {
+         "Year": 2001,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2002,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2003,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2004,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2005,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2006,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2007,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2008,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2009,
+         "Tradevalue": 87
+      },
+      {
+         "Year": 2010,
+         "Tradevalue": 966
+      },
+      {
+         "Year": 2011,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2012,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2013,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2014,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2015,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2016,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2017,
+         "Tradevalue": 28700
+      },
+      {
+         "Year": 2018,
+         "Tradevalue": 181059
+      },
+      {
+         "Year": 2019,
+         "Tradevalue": 2572747
+      },
+      {
+         "Year": 2020,
+         "Tradevalue": 3205622
+      }
+   ],
+   "France": [
+      {
+         "Year": 1992,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1993,
+         "Tradevalue": 837
+      },
+      {
+         "Year": 1994,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1995,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1996,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1997,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1998,
+         "Tradevalue": 1893
+      },
+      {
+         "Year": 1999,
+         "Tradevalue": 9132
+      },
+      {
+         "Year": 2000,
+         "Tradevalue": 365
+      },
+      {
+         "Year": 2001,
+         "Tradevalue": 326
+      },
+      {
+         "Year": 2002,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2003,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2004,
+         "Tradevalue": 5685
+      },
+      {
+         "Year": 2005,
+         "Tradevalue": 26039
+      },
+      {
+         "Year": 2006,
+         "Tradevalue": 111221
+      },
+      {
+         "Year": 2007,
+         "Tradevalue": 108056
+      },
+      {
+         "Year": 2008,
+         "Tradevalue": 10791
+      },
+      {
+         "Year": 2009,
+         "Tradevalue": 5186
+      },
+      {
+         "Year": 2010,
+         "Tradevalue": 12189
+      },
+      {
+         "Year": 2011,
+         "Tradevalue": 8521
+      },
+      {
+         "Year": 2012,
+         "Tradevalue": 28156
+      },
+      {
+         "Year": 2013,
+         "Tradevalue": 6678
+      },
+      {
+         "Year": 2014,
+         "Tradevalue": 806
+      },
+      {
+         "Year": 2015,
+         "Tradevalue": 11339
+      },
+      {
+         "Year": 2016,
+         "Tradevalue": 236944
+      },
+      {
+         "Year": 2017,
+         "Tradevalue": 382134
+      },
+      {
+         "Year": 2018,
+         "Tradevalue": 359477
+      },
+      {
+         "Year": 2019,
+         "Tradevalue": 270228
+      },
+      {
+         "Year": 2020,
+         "Tradevalue": 615599
+      }
+   ],
+   "Germany": [
+      {
+         "Year": 1992,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1993,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1994,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1995,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1996,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1997,
+         "Tradevalue": 10209
+      },
+      {
+         "Year": 1998,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1999,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2000,
+         "Tradevalue": 984
+      },
+      {
+         "Year": 2001,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2002,
+         "Tradevalue": 28
+      },
+      {
+         "Year": 2003,
+         "Tradevalue": 131
+      },
+      {
+         "Year": 2004,
+         "Tradevalue": 828
+      },
+      {
+         "Year": 2005,
+         "Tradevalue": 2412
+      },
+      {
+         "Year": 2006,
+         "Tradevalue": 1152
+      },
+      {
+         "Year": 2007,
+         "Tradevalue": 1330
+      },
+      {
+         "Year": 2008,
+         "Tradevalue": 46550
+      },
+      {
+         "Year": 2009,
+         "Tradevalue": 3049
+      },
+      {
+         "Year": 2010,
+         "Tradevalue": 10946
+      },
+      {
+         "Year": 2011,
+         "Tradevalue": 32270
+      },
+      {
+         "Year": 2012,
+         "Tradevalue": 81876
+      },
+      {
+         "Year": 2013,
+         "Tradevalue": 340
+      },
+      {
+         "Year": 2014,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2015,
+         "Tradevalue": 546
+      },
+      {
+         "Year": 2016,
+         "Tradevalue": 2103
+      },
+      {
+         "Year": 2017,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2018,
+         "Tradevalue": 28569
+      },
+      {
+         "Year": 2019,
+         "Tradevalue": 14494
+      },
+      {
+         "Year": 2020,
+         "Tradevalue": 9896
+      }
+   ],
+   "Italy": [
+      {
+         "Year": 1992,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1993,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1994,
+         "Tradevalue": 1699
+      },
+      {
+         "Year": 1995,
+         "Tradevalue": 1404
+      },
+      {
+         "Year": 1996,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1997,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1998,
+         "Tradevalue": 1556
+      },
+      {
+         "Year": 1999,
+         "Tradevalue": 880
+      },
+      {
+         "Year": 2000,
+         "Tradevalue": 822
+      },
+      {
+         "Year": 2001,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2002,
+         "Tradevalue": 300
+      },
+      {
+         "Year": 2003,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2004,
+         "Tradevalue": 699
+      },
+      {
+         "Year": 2005,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2006,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2007,
+         "Tradevalue": 465
+      },
+      {
+         "Year": 2008,
+         "Tradevalue": 2852
+      },
+      {
+         "Year": 2009,
+         "Tradevalue": 331
+      },
+      {
+         "Year": 2010,
+         "Tradevalue": 41400
+      },
+      {
+         "Year": 2011,
+         "Tradevalue": 1939
+      },
+      {
+         "Year": 2012,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2013,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2014,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2015,
+         "Tradevalue": 29571
+      },
+      {
+         "Year": 2016,
+         "Tradevalue": 48609
+      },
+      {
+         "Year": 2017,
+         "Tradevalue": 40754
+      },
+      {
+         "Year": 2018,
+         "Tradevalue": 31704
+      },
+      {
+         "Year": 2019,
+         "Tradevalue": 32877
+      },
+      {
+         "Year": 2020,
+         "Tradevalue": 32695
+      }
+   ],
+   "Japan": [
+      {
+         "Year": 1992,
+         "Tradevalue": 5082
+      },
+      {
+         "Year": 1993,
+         "Tradevalue": 2138
+      },
+      {
+         "Year": 1994,
+         "Tradevalue": 22173
+      },
+      {
+         "Year": 1995,
+         "Tradevalue": 3193
+      },
+      {
+         "Year": 1996,
+         "Tradevalue": 4573
+      },
+      {
+         "Year": 1997,
+         "Tradevalue": 16134
+      },
+      {
+         "Year": 1998,
+         "Tradevalue": 23158
+      },
+      {
+         "Year": 1999,
+         "Tradevalue": 24188
+      },
+      {
+         "Year": 2000,
+         "Tradevalue": 26396
+      },
+      {
+         "Year": 2001,
+         "Tradevalue": 3722
+      },
+      {
+         "Year": 2002,
+         "Tradevalue": 15
+      },
+      {
+         "Year": 2003,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2004,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2005,
+         "Tradevalue": 12296
+      },
+      {
+         "Year": 2006,
+         "Tradevalue": 88608
+      },
+      {
+         "Year": 2007,
+         "Tradevalue": 63226
+      },
+      {
+         "Year": 2008,
+         "Tradevalue": 72191
+      },
+      {
+         "Year": 2009,
+         "Tradevalue": 102732
+      },
+      {
+         "Year": 2010,
+         "Tradevalue": 123643
+      },
+      {
+         "Year": 2011,
+         "Tradevalue": 32346
+      },
+      {
+         "Year": 2012,
+         "Tradevalue": 19970
+      },
+      {
+         "Year": 2013,
+         "Tradevalue": 11720
+      },
+      {
+         "Year": 2014,
+         "Tradevalue": 78258
+      },
+      {
+         "Year": 2015,
+         "Tradevalue": 426234
+      },
+      {
+         "Year": 2016,
+         "Tradevalue": 813007
+      },
+      {
+         "Year": 2017,
+         "Tradevalue": 84987
+      },
+      {
+         "Year": 2018,
+         "Tradevalue": 138386
+      },
+      {
+         "Year": 2019,
+         "Tradevalue": 5492
+      },
+      {
+         "Year": 2020,
+         "Tradevalue": 14679
+      }
+   ],
+   "Malaysia": [
+      {
+         "Year": 1992,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1993,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1994,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1995,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1996,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1997,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1998,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1999,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2000,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2001,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2002,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2003,
+         "Tradevalue": 82
+      },
+      {
+         "Year": 2004,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2005,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2006,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2007,
+         "Tradevalue": 3428
+      },
+      {
+         "Year": 2008,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2009,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2010,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2011,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2012,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2013,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2014,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2015,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2016,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2017,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2018,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2019,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2020,
+         "Tradevalue": 0
+      }
+   ],
+   "Mongolia": [
+      {
+         "Year": 1992,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1993,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1994,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1995,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1996,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1997,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1998,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1999,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2000,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2001,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2002,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2003,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2004,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2005,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2006,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2007,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2008,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2009,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2010,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2011,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2012,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2013,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2014,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2015,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2016,
+         "Tradevalue": 16870
+      },
+      {
+         "Year": 2017,
+         "Tradevalue": 35886
+      },
+      {
+         "Year": 2018,
+         "Tradevalue": 121235
+      },
+      {
+         "Year": 2019,
+         "Tradevalue": 4797
+      },
+      {
+         "Year": 2020,
+         "Tradevalue": 0
+      }
+   ],
+   "Netherlands": [
+      {
+         "Year": 1992,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1993,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1994,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1995,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1996,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1997,
+         "Tradevalue": 4771
+      },
+      {
+         "Year": 1998,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1999,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2000,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2001,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2002,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2003,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2004,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2005,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2006,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2007,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2008,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2009,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2010,
+         "Tradevalue": 472
+      },
+      {
+         "Year": 2011,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2012,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2013,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2014,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2015,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2016,
+         "Tradevalue": 6
+      },
+      {
+         "Year": 2017,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2018,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2019,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2020,
+         "Tradevalue": 0
+      }
+   ],
+   "New Zealand": [
+      {
+         "Year": 1992,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1993,
+         "Tradevalue": 683
+      },
+      {
+         "Year": 1994,
+         "Tradevalue": 2472
+      },
+      {
+         "Year": 1995,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1996,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1997,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1998,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1999,
+         "Tradevalue": 599
+      },
+      {
+         "Year": 2000,
+         "Tradevalue": 650
+      },
+      {
+         "Year": 2001,
+         "Tradevalue": 1361
+      },
+      {
+         "Year": 2002,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2003,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2004,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2005,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2006,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2007,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2008,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2009,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2010,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2011,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2012,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2013,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2014,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2015,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2016,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2017,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2018,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2019,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2020,
+         "Tradevalue": 0
+      }
+   ],
+   "Portugal": [
+      {
+         "Year": 1992,
+         "Tradevalue": 3507
+      },
+      {
+         "Year": 1993,
+         "Tradevalue": 2996
+      },
+      {
+         "Year": 1994,
+         "Tradevalue": 785
+      },
+      {
+         "Year": 1995,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1996,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1997,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1998,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1999,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2000,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2001,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2002,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2003,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2004,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2005,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2006,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2007,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2008,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2009,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2010,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2011,
+         "Tradevalue": 5285
+      },
+      {
+         "Year": 2012,
+         "Tradevalue": 3101
+      },
+      {
+         "Year": 2013,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2014,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2015,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2016,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2017,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2018,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2019,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2020,
+         "Tradevalue": 0
+      }
+   ],
+   "Rep. of Korea": [
+      {
+         "Year": 1992,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1993,
+         "Tradevalue": 887
+      },
+      {
+         "Year": 1994,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1995,
+         "Tradevalue": 14706
+      },
+      {
+         "Year": 1996,
+         "Tradevalue": 1216
+      },
+      {
+         "Year": 1997,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1998,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1999,
+         "Tradevalue": 51949
+      },
+      {
+         "Year": 2000,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2001,
+         "Tradevalue": 5826
+      },
+      {
+         "Year": 2002,
+         "Tradevalue": 251
+      },
+      {
+         "Year": 2003,
+         "Tradevalue": 69
+      },
+      {
+         "Year": 2004,
+         "Tradevalue": 153062
+      },
+      {
+         "Year": 2005,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2006,
+         "Tradevalue": 82
+      },
+      {
+         "Year": 2007,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2008,
+         "Tradevalue": 9793
+      },
+      {
+         "Year": 2009,
+         "Tradevalue": 16666
+      },
+      {
+         "Year": 2010,
+         "Tradevalue": 5597
+      },
+      {
+         "Year": 2011,
+         "Tradevalue": 35143
+      },
+      {
+         "Year": 2012,
+         "Tradevalue": 316883
+      },
+      {
+         "Year": 2013,
+         "Tradevalue": 1088818
+      },
+      {
+         "Year": 2014,
+         "Tradevalue": 1496372
+      },
+      {
+         "Year": 2015,
+         "Tradevalue": 3082299
+      },
+      {
+         "Year": 2016,
+         "Tradevalue": 5582210
+      },
+      {
+         "Year": 2017,
+         "Tradevalue": 2583864
+      },
+      {
+         "Year": 2018,
+         "Tradevalue": 2745676
+      },
+      {
+         "Year": 2019,
+         "Tradevalue": 1190058
+      },
+      {
+         "Year": 2020,
+         "Tradevalue": 0
+      }
+   ],
+   "Russian Federation": [
+      {
+         "Year": 1992,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1993,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1994,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1995,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1996,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1997,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1998,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1999,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2000,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2001,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2002,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2003,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2004,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2005,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2006,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2007,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2008,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2009,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2010,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2011,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2012,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2013,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2014,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2015,
+         "Tradevalue": 12136
+      },
+      {
+         "Year": 2016,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2017,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2018,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2019,
+         "Tradevalue": 866
+      },
+      {
+         "Year": 2020,
+         "Tradevalue": 0
+      }
+   ],
+   "Singapore": [
+      {
+         "Year": 1992,
+         "Tradevalue": 2340
+      },
+      {
+         "Year": 1993,
+         "Tradevalue": 2123
+      },
+      {
+         "Year": 1994,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1995,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1996,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1997,
+         "Tradevalue": 1070
+      },
+      {
+         "Year": 1998,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1999,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2000,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2001,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2002,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2003,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2004,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2005,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2006,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2007,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2008,
+         "Tradevalue": 3036
+      },
+      {
+         "Year": 2010,
+         "Tradevalue": 6259
+      },
+      {
+         "Year": 2011,
+         "Tradevalue": 6740
+      },
+      {
+         "Year": 2012,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2013,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2014,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2015,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2016,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2017,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2018,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2019,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2020,
+         "Tradevalue": 0
+      }
+   ],
+   "Spain": [
+      {
+         "Year": 1992,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1993,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1994,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1995,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1996,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1997,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1998,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1999,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2000,
+         "Tradevalue": 205
+      },
+      {
+         "Year": 2001,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2002,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2003,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2004,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2005,
+         "Tradevalue": 274
+      },
+      {
+         "Year": 2006,
+         "Tradevalue": 19
+      },
+      {
+         "Year": 2007,
+         "Tradevalue": 560
+      },
+      {
+         "Year": 2008,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2009,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2010,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2011,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2012,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2013,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2014,
+         "Tradevalue": 142448
+      },
+      {
+         "Year": 2015,
+         "Tradevalue": 575
+      },
+      {
+         "Year": 2016,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2017,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2018,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2019,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2020,
+         "Tradevalue": 99514
+      }
+   ],
+   "Sweden": [
+      {
+         "Year": 1992,
+         "Tradevalue": 891
+      },
+      {
+         "Year": 1993,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1994,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1995,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1996,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1997,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1998,
+         "Tradevalue": 4480
+      },
+      {
+         "Year": 1999,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2000,
+         "Tradevalue": 12035
+      },
+      {
+         "Year": 2001,
+         "Tradevalue": 7992
+      },
+      {
+         "Year": 2002,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2003,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2004,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2005,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2006,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2007,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2008,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2009,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2010,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2011,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2012,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2013,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2014,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2015,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2016,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2017,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2018,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2019,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2020,
+         "Tradevalue": 0
+      }
+   ],
+   "Switzerland": [
+      {
+         "Year": 1992,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1993,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1994,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1995,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1996,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1997,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1998,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1999,
+         "Tradevalue": 10784
+      },
+      {
+         "Year": 2000,
+         "Tradevalue": 1409
+      },
+      {
+         "Year": 2001,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2002,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2003,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2004,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2005,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2006,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2007,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2008,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2009,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2010,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2011,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2012,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2013,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2014,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2015,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2016,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2017,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2018,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2019,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2020,
+         "Tradevalue": 0
+      }
+   ],
+   "Thailand": [
+      {
+         "Year": 1998,
+         "Tradevalue": 6554
+      },
+      {
+         "Year": 1999,
+         "Tradevalue": 16380
+      },
+      {
+         "Year": 2000,
+         "Tradevalue": 124
+      },
+      {
+         "Year": 2001,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2002,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2003,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2004,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2005,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2006,
+         "Tradevalue": 213
+      },
+      {
+         "Year": 2007,
+         "Tradevalue": 128
+      },
+      {
+         "Year": 2008,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2009,
+         "Tradevalue": 1784
+      },
+      {
+         "Year": 2010,
+         "Tradevalue": 1671
+      },
+      {
+         "Year": 2011,
+         "Tradevalue": 2841
+      },
+      {
+         "Year": 2012,
+         "Tradevalue": 4516
+      },
+      {
+         "Year": 2013,
+         "Tradevalue": 1034
+      },
+      {
+         "Year": 2014,
+         "Tradevalue": 3950
+      },
+      {
+         "Year": 2015,
+         "Tradevalue": 7579
+      },
+      {
+         "Year": 2016,
+         "Tradevalue": 25595
+      },
+      {
+         "Year": 2017,
+         "Tradevalue": 1207
+      },
+      {
+         "Year": 2018,
+         "Tradevalue": 1658
+      },
+      {
+         "Year": 2019,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2020,
+         "Tradevalue": 0
+      }
+   ],
+   "Turkey": [
+      {
+         "Year": 1992,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1993,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1994,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1995,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1996,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1997,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1998,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1999,
+         "Tradevalue": 11245
+      },
+      {
+         "Year": 2000,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2001,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2002,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2003,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2004,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2005,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2006,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2007,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2008,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2009,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2010,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2011,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2012,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2013,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2014,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2015,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2016,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2017,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2018,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2019,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2020,
+         "Tradevalue": 0
+      }
+   ],
+   "United Kingdom": [
+      {
+         "Year": 1992,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1993,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1994,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1995,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1996,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1997,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1998,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 1999,
+         "Tradevalue": 16074
+      },
+      {
+         "Year": 2000,
+         "Tradevalue": 44510
+      },
+      {
+         "Year": 2001,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2002,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2003,
+         "Tradevalue": 372
+      },
+      {
+         "Year": 2004,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2005,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2006,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2007,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2008,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2009,
+         "Tradevalue": 2116
+      },
+      {
+         "Year": 2010,
+         "Tradevalue": 3191
+      },
+      {
+         "Year": 2011,
+         "Tradevalue": 4911
+      },
+      {
+         "Year": 2012,
+         "Tradevalue": 7420
+      },
+      {
+         "Year": 2013,
+         "Tradevalue": 8031
+      },
+      {
+         "Year": 2014,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2015,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2016,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2017,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2018,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2019,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2020,
+         "Tradevalue": 0
+      }
+   ],
+   "USA": [
+      {
+         "Year": 1992,
+         "Tradevalue": 24833
+      },
+      {
+         "Year": 1993,
+         "Tradevalue": 8162
+      },
+      {
+         "Year": 1994,
+         "Tradevalue": 67591
+      },
+      {
+         "Year": 1995,
+         "Tradevalue": 68559
+      },
+      {
+         "Year": 1996,
+         "Tradevalue": 30070
+      },
+      {
+         "Year": 1997,
+         "Tradevalue": 9304
+      },
+      {
+         "Year": 1998,
+         "Tradevalue": 11273
+      },
+      {
+         "Year": 1999,
+         "Tradevalue": 510496
+      },
+      {
+         "Year": 2000,
+         "Tradevalue": 1436412
+      },
+      {
+         "Year": 2001,
+         "Tradevalue": 1717325
+      },
+      {
+         "Year": 2002,
+         "Tradevalue": 1727354
+      },
+      {
+         "Year": 2003,
+         "Tradevalue": 1162938
+      },
+      {
+         "Year": 2004,
+         "Tradevalue": 320997
+      },
+      {
+         "Year": 2005,
+         "Tradevalue": 632940
+      },
+      {
+         "Year": 2006,
+         "Tradevalue": 80501
+      },
+      {
+         "Year": 2007,
+         "Tradevalue": 174537
+      },
+      {
+         "Year": 2008,
+         "Tradevalue": 206220
+      },
+      {
+         "Year": 2009,
+         "Tradevalue": 922277
+      },
+      {
+         "Year": 2010,
+         "Tradevalue": 2109763
+      },
+      {
+         "Year": 2011,
+         "Tradevalue": 2534928
+      },
+      {
+         "Year": 2012,
+         "Tradevalue": 2826708
+      },
+      {
+         "Year": 2013,
+         "Tradevalue": 1086315
+      },
+      {
+         "Year": 2014,
+         "Tradevalue": 1508334
+      },
+      {
+         "Year": 2015,
+         "Tradevalue": 1229902
+      },
+      {
+         "Year": 2016,
+         "Tradevalue": 558
+      },
+      {
+         "Year": 2017,
+         "Tradevalue": 17688
+      },
+      {
+         "Year": 2018,
+         "Tradevalue": 5210
+      },
+      {
+         "Year": 2019,
+         "Tradevalue": 0
+      },
+      {
+         "Year": 2020,
+         "Tradevalue": 668
+      }
+   ],
+   "World": [
+      {
+         "Year": 1992,
+         "Tradevalue": 74428
+      },
+      {
+         "Year": 1993,
+         "Tradevalue": 199952
+      },
+      {
+         "Year": 1994,
+         "Tradevalue": 123661
+      },
+      {
+         "Year": 1995,
+         "Tradevalue": 252496
+      },
+      {
+         "Year": 1996,
+         "Tradevalue": 107117
+      },
+      {
+         "Year": 1997,
+         "Tradevalue": 234512
+      },
+      {
+         "Year": 1998,
+         "Tradevalue": 177450
+      },
+      {
+         "Year": 1999,
+         "Tradevalue": 698497
+      },
+      {
+         "Year": 2000,
+         "Tradevalue": 1558309
+      },
+      {
+         "Year": 2001,
+         "Tradevalue": 1738391
+      },
+      {
+         "Year": 2002,
+         "Tradevalue": 1777969
+      },
+      {
+         "Year": 2003,
+         "Tradevalue": 1163654
+      },
+      {
+         "Year": 2004,
+         "Tradevalue": 505792
+      },
+      {
+         "Year": 2005,
+         "Tradevalue": 744198
+      },
+      {
+         "Year": 2006,
+         "Tradevalue": 283572
+      },
+      {
+         "Year": 2007,
+         "Tradevalue": 352339
+      },
+      {
+         "Year": 2008,
+         "Tradevalue": 362599
+      },
+      {
+         "Year": 2009,
+         "Tradevalue": 1059107
+      },
+      {
+         "Year": 2010,
+         "Tradevalue": 2617393
+      },
+      {
+         "Year": 2011,
+         "Tradevalue": 3125940
+      },
+      {
+         "Year": 2012,
+         "Tradevalue": 4153906
+      },
+      {
+         "Year": 2013,
+         "Tradevalue": 2667763
+      },
+      {
+         "Year": 2014,
+         "Tradevalue": 3241567
+      },
+      {
+         "Year": 2015,
+         "Tradevalue": 4808222
+      },
+      {
+         "Year": 2016,
+         "Tradevalue": 6739696
+      },
+      {
+         "Year": 2017,
+         "Tradevalue": 3200081
+      },
+      {
+         "Year": 2018,
+         "Tradevalue": 3707170
+      },
+      {
+         "Year": 2019,
+         "Tradevalue": 4181322
+      },
+      {
+         "Year": 2020,
+         "Tradevalue": 3978673
+      }
+   ]
+}
+   )
 })
 app.listen(port, () => {
 
